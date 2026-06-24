@@ -1,0 +1,6 @@
+{
+  "name": "Event Ticket Booking System",
+  "description": "An event ticket booking platform that allows browsing events, booking tickets with availability checks, getting confirmations, and viewing a real-time organizer dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

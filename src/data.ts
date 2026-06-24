@@ -1,0 +1,139 @@
+import { Event } from './types';
+
+export const SAMPLE_EVENTS: Event[] = [
+  {
+    id: 'evt-1',
+    name: 'Rock Summer Fest 2026',
+    date: '2026-07-15',
+    time: '18:30',
+    venue: 'City Amphitheater, Austin TX',
+    description: 'Get ready for the biggest rock festival of the season! Featuring headliners from across the globe, stunning light displays, and open-air food trucks. Experience the unforgettable energy of live rock, hard rock, and indie alternative bands all under the night sky.',
+    type: 'Concert',
+    ticketTypes: [
+      { name: 'General', price: 45, totalSeats: 120, bookedSeats: 0 },
+      { name: 'VIP', price: 120, totalSeats: 25, bookedSeats: 0 }
+    ],
+    organizerName: 'Zenith Rocks Ltd',
+    imageUrl: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-2',
+    name: 'JavaScript & React Deep Dive',
+    date: '2026-06-25',
+    time: '09:00',
+    venue: 'Innovate Tech Labs, San Francisco CA',
+    description: 'An intensive, hands-on workshop led by industry veterans. Learn senior-level code structures, advanced state management optimization with React 19, custom hook design patterns, and next-generation developer tooling.',
+    type: 'Workshop',
+    ticketTypes: [
+      { name: 'General', price: 75, totalSeats: 40, bookedSeats: 0 },
+      { name: 'VIP', price: 180, totalSeats: 10, bookedSeats: 0 }
+    ],
+    organizerName: 'CodeAcademy Tech',
+    imageUrl: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-3',
+    name: 'Creators & Innovators Meetup',
+    date: '2026-06-30',
+    time: '17:00',
+    venue: 'The Spark Co-working Loft, Portland OR',
+    description: 'Connect, collaborate, and share your projects with fellow local builders, startup founders, designers, and hobbyists. Enjoy refreshments, open-mic pitches, and curated speed-networking sessions designed to kickstart collaborations.',
+    type: 'Meetup',
+    ticketTypes: [
+      { name: 'General', price: 15, totalSeats: 50, bookedSeats: 0 },
+      { name: 'VIP', price: 40, totalSeats: 15, bookedSeats: 0 }
+    ],
+    organizerName: 'FoundersHub Global',
+    imageUrl: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-4',
+    name: 'Midnight Stand-up Showdown',
+    date: '2026-07-02',
+    time: '21:00',
+    venue: 'Laugh Out Loud Lounge, Chicago IL',
+    description: 'An elite lineup of five national touring stand-up comedians going head-to-head. High energy, sharp crowd work, and non-stop laughter to elevate your weekend. Perfect for a friends outing or a humorous date night.',
+    type: 'Comedy',
+    ticketTypes: [
+      { name: 'General', price: 25, totalSeats: 55, bookedSeats: 0 },
+      { name: 'VIP', price: 60, totalSeats: 12, bookedSeats: 0 }
+    ],
+    organizerName: 'Giggles Comedy Syndicate',
+    imageUrl: 'https://images.unsplash.com/photo-1585699324551-f6c309eed262?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-5',
+    name: 'Metropolitan Soccer Derby',
+    date: '2026-08-05',
+    time: '15:00',
+    venue: 'City United Stadium, Denver CO',
+    description: 'Experience pure sports drama as City FC takes on their legendary rivals Metro Rovers in the highly anticipated summer derby. Incredible stadium food, fan choreographies, and high-intensity, physical football.',
+    type: 'Sports',
+    ticketTypes: [
+      { name: 'General', price: 35, totalSeats: 150, bookedSeats: 0 },
+      { name: 'VIP', price: 110, totalSeats: 20, bookedSeats: 0 }
+    ],
+    organizerName: 'Metro Athletics Board',
+    imageUrl: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-6',
+    name: 'Jazz & Wine Nocturne',
+    date: '2026-07-20',
+    time: '19:30',
+    venue: 'The Burgundy Cellar, Seattle WA',
+    description: 'An exquisite evening of smooth, acoustic jazz quintets paired with premium boutique wine tastings. Soft lighting, intimate cabaret seating, and artisanal charcuterie boards curated by executive sommeliers.',
+    type: 'Concert',
+    ticketTypes: [
+      { name: 'General', price: 50, totalSeats: 35, bookedSeats: 0 },
+      { name: 'VIP', price: 100, totalSeats: 8, bookedSeats: 0 }
+    ],
+    organizerName: 'BlueNote Sounds',
+    imageUrl: 'https://images.unsplash.com/photo-1484755560693-a4074577af3a?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-7',
+    name: 'Figma to Code Layout Masterclass',
+    date: '2026-07-10',
+    time: '10:00',
+    venue: 'Virtual Interactive Stage (Online)',
+    description: 'A comprehensive live livestream workshop targeting design-system integration, pixel-perfect Tailwind implementations, accessible interactive component structures, and fluid responsive spacing systems.',
+    type: 'Workshop',
+    ticketTypes: [
+      { name: 'General', price: 30, totalSeats: 80, bookedSeats: 0 },
+      { name: 'VIP', price: 70, totalSeats: 20, bookedSeats: 0 }
+    ],
+    organizerName: 'DesignCraft Global',
+    imageUrl: 'https://images.unsplash.com/photo-1541462608141-ad4979e408c9?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-8',
+    name: 'Pro Squash Open Finals',
+    date: '2026-08-12',
+    time: '13:00',
+    venue: 'Glass Court Pavilion, Boston MA',
+    description: 'Watch the fastest sport in the world played at the absolute highest level. The top ranked players compete for the championship trophy in an custom all-glass squash court offering outstanding views from every tier.',
+    type: 'Sports',
+    ticketTypes: [
+      { name: 'General', price: 40, totalSeats: 60, bookedSeats: 0 },
+      { name: 'VIP', price: 95, totalSeats: 15, bookedSeats: 0 }
+    ],
+    organizerName: 'SquashPro Association',
+    imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=60'
+  },
+  {
+    id: 'evt-9',
+    name: 'Startup Pitch & Sunset Mixer',
+    date: '2026-06-18',
+    time: '18:00',
+    venue: 'Skyline Capital Lounge, Miami FL',
+    description: 'Selected elite pre-seed startups present their concepts to active angel investors in quick-pitch formats. A sunset mixer and open bar follows to promote deep networking with top tech talent and funders.',
+    type: 'Meetup',
+    ticketTypes: [
+      { name: 'General', price: 20, totalSeats: 45, bookedSeats: 0 },
+      { name: 'VIP', price: 50, totalSeats: 10, bookedSeats: 0 }
+    ],
+    organizerName: 'VentureCoast Capital',
+    imageUrl: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=60'
+  }
+];
